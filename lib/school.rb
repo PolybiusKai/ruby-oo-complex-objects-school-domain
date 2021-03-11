@@ -25,6 +25,4 @@ class School
         @roster.each {|k, v| new_list[k] = v.sort}
         new_list
     end
-
-    
 end
